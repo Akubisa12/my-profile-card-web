@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body
+{
+  background: #8E2DE2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h3
+{
+  margin: 10px 0;
+}
+
+h6
+{
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+p
+{
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.card-desc
+{
+  font-size: 13px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card-subtitle
+{
+  margin-top: 10px;
+}
+
+.card-container
+{
+  background-color: #1B0052;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+  color: #f0f0f0;
+  padding-top: 10px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+  box-shadow: 0 10px 20px -10px rgba(0,0,0,0.75);
+}
+
+.card-container .round
+{
+  border: 2px solid #febb0b;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  padding: 7px;
+  width: 144px;
+  height: 144px;
+}
+
+button.primary
+{
+  background-color: #febb0b;
+  color: #1B0052;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  padding: 8px 20px;
+  border: 1px solid #febb0b;
+}
+
+button.primary.outline
+{
+  background-color: transparent;
+  color: #febb0b;
+}
+
+.social-media ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media ul li 
+{
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 15px;
+  margin-left: 14px;
+  margin-right: 13px;
+}
+
+.skills
+{
+  background-color: #1B0052;
+  text-align: left;
+  padding: 15px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-top: 15px;
+}
+
+.skills ul
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul li 
+{
+  border: 1px solid #2d2747;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0 7px 7px 0;
+  padding: 7px;
+}
